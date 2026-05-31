@@ -1,0 +1,19 @@
+{
+    "Name": "HeatWeightJJ",
+    "Enabled": true,
+    
+    "DependsOn": ["SLDFItemsInShops"],
+
+    "Version": "0.4.1BEXT",
+    "Description": "Adds better Heatsinks, Reverse Gravity fields generators (Rgravs) and Targeting enhancers to shops. Two levels of item: SLDF grade and a mediocre attempt to recreate it. The mediocre attempt does less, take more space and weight more. Note: This version doesn't require custom components but has less items",
+    "Author": "tharbad08",
+    "Website": "",
+    "Contact": "Use github Issues",
+
+    "Manifest": [
+        { "Type": "ItemCollectionDef", "Path": "items", "ShouldAppendText": true },
+        { "Type": "UpgradeDef", "Path": "upgrade" },
+        { "Type": "HeatSinkDef", "Path": "heat" },
+        { "Type": "UpgradeDef", "Path": "FerroEndo", "ShouldMergeJSON": true }
+    ]
+} 
